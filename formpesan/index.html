@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesan untuk kita!</title>
+    <link rel="stylesheet" href="/formpesan/style.css" />
+    <link rel="icon" href="/assets/title2.png" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="mail.php" method="POST">
+        <h1>Pesan untuk kita!</h1>
+        <div class="formgroup">
+          <input type="text" id="name" name="name" placeholder="Nama koe" required />
+        </div>
+        <div class="formgroup">
+          <input type="email" id="email" name="email" placeholder="Email koe" required />
+        </div>
+        <div class="formgroup">
+          <textarea id="message" name="message" rows="4" placeholder="Masukan pesan untuk kita!"></textarea>
+        </div>
+        <a class="button" href="">Kirim</a>
+      </form>
+    </div>
+  </body>
+</html>
